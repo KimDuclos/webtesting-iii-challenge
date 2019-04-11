@@ -8,9 +8,9 @@ import Dashboard from '../dashboard/Dashboard';
 
 afterEach(cleanup);
 
-describe('Display tests', () => {
-  it(renders, () => {
-    render(<Display />);
+describe('Dashboard tests', () => {
+  it('renders', () => {
+    render(<Dashboard />);
   });
 
   it('matches snapshot', () => {

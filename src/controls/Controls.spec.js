@@ -9,7 +9,7 @@ import Dashboard from "../dashboard/Dashboard";
 
 afterEach(cleanup);
 
-describe('Controls Tests', () => {
+describe('Controls tests', () => {
   it('renders', () => {
     render(<Controls />);
   });
